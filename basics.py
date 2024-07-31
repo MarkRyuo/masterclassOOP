@@ -5,7 +5,7 @@ class Fighter:  # ? Blueprint
 
     def get_Hp(self):
 
-        if self.healthPoints >= 100:
+        if self.healthPoints >= 50:
             self.healthPoints -= 20
             print(f"Your health is {self.healthPoints} your under attack")
 
