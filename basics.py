@@ -18,9 +18,4 @@ fighterOne = Fighter(1000) # ? This is called intances
 fighterOne.get_Hp()
 fighterOne.get_Hp()
 fighterOne.get_Hp()
-fighterOne.get_Hp()
-fighterOne.get_Hp()
-fighterOne.get_Hp()
-fighterOne.get_Hp()
-fighterOne.get_Hp()
-fighterOne.get_Hp()
+
