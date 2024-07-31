@@ -23,7 +23,7 @@ def main():
     # fighterOne.get_Hp()  # * 3rd
 
     for x in range(5) :
-        fighterOne.get_Hp()
+        print(fighterOne.get_Hp())
 
 
 main()
