@@ -14,6 +14,10 @@ class Fighter : # ? Blueprint
             self.healthPoints -= 150
             print(f"Your health is {self.healthPoints} your under attack")
 
+        if self.healthPoints < 10 :
+            print("Back up your health is low")
+
+
 
 
 
