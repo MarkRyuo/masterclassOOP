@@ -3,9 +3,9 @@
 
 class Fighter : # ? Blueprint 
     
-    def __init__(self, healthPoints, underAttack) : # ? This is the constructor 
+    def __init__(self, healthPoints) : # ? This is the constructor 
         self.healthPoints = healthPoints
-        self.underAttack = underAttack
+        # self.underAttack = underAttack
     
     def get_Hp(self) :
         # todo create a logic here: if hero hp is lower than  to 10 alert the player 
