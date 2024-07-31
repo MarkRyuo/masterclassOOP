@@ -11,8 +11,8 @@ class Fighter:  # ? Blueprint
 
         
         # todo create a logic here: if hero hp is lower than to 20 alert the player
-        # if self.healthPoints <= 20:
-        #     print("Back up your health is low")
+        if self.healthPoints <= 20:
+            print("Back up your health is low")
 
 
 def main():
