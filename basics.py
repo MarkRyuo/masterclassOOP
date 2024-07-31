@@ -8,7 +8,7 @@ class Fighter : # ? Blueprint
     
     def get_Hp(self) :
         # todo create a logic here: if hero hp is lower than  to 10 alert the player 
-        print(f"Hero Hp: {self.healthPoints}")
+        
 
 
 fighterOne = Fighter(1000) # ? This is called intances
