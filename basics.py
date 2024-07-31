@@ -7,6 +7,6 @@ class Fighter : # ? Blueprint
         self.healthPoints = healthPoints
     
 
-    
 
-fighterOne = Fighter() # ? This is called intances
+
+fighterOne = Fighter(1000) # ? This is called intances
