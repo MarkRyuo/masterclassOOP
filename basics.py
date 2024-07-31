@@ -19,6 +19,8 @@ class Fighter : # ? Blueprint
             print(f"Your health is {self.healthPoints} your under attack")
 
 
+
+
 fighterOne = Fighter(1000) # ? This is called intances
 fighterOne.get_Hp()
 fighterOne.get_Hp()
