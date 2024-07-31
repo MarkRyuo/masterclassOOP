@@ -22,3 +22,6 @@ def main():
 
     fighterOne.get_Hp()  # * 2nd
     fighterOne.get_Hp()  # * 3rd
+
+
+main()
