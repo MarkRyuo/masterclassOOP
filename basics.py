@@ -18,10 +18,12 @@ class Fighter:  # ? Blueprint
 def main():
 
     fighterOne = Fighter(120)  # ? This is called intances
-    fighterOne.get_Hp()  # * 1st
+    # fighterOne.get_Hp()  # * 1st
+    # fighterOne.get_Hp()  # * 2nd
+    # fighterOne.get_Hp()  # * 3rd
 
-    fighterOne.get_Hp()  # * 2nd
-    fighterOne.get_Hp()  # * 3rd
+    for x in range(4) :
+        fighterOne.get_Hp()
 
 
 main()
