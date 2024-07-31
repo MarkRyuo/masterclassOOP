@@ -8,11 +8,7 @@ class Fighter : # ? Blueprint
         # self.underAttack = underAttack
     
     def get_Hp(self) :
-        # todo create a logic here: if hero hp is lower than  to 10 alert the player 
-
-        if self.healthPoints < 10 :
-            print("Back up your health is low")
-
+        # todo create a logic here: if hero hp is lower than to 10 alert the player 
 
         if self.healthPoints > 1000 :
             self.healthPoints -= 150
