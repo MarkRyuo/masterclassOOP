@@ -24,7 +24,7 @@ class Fighter : # ? Blueprint
 fighterOne = Fighter(120) # ? This is called intances
 fighterOne.get_Hp() # * 1st 
 
-fighterOne.get_Hp() # * 
-fighterOne.get_Hp()
+fighterOne.get_Hp() # * 2nd 
+fighterOne.get_Hp() # * 3rd 
 
 
