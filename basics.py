@@ -26,6 +26,4 @@ fighterOne.get_Hp()
 fighterOne.get_Hp()
 fighterOne.get_Hp()
 fighterOne.get_Hp()
-fighterOne.get_Hp()
-fighterOne.get_Hp()
 
