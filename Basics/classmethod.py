@@ -21,4 +21,4 @@ class Marksman :
 def main() :
 
     mm = Marksman(damage=400, hp=1000)
-    
+    mm.call()
