@@ -1,9 +1,9 @@
 
 class Marksman :
     
-    def __init__(self, damage, hp) :
-        self.damage = damage 
-        self.hp = hp 
+    def __init__(self, damage, hp) : # ? Constructor 
+        self.damage = damage # ? public Attribute 
+        self.hp = hp # ? public Attribute
 
 
     def call(self) :
