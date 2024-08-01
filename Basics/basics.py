@@ -1,5 +1,7 @@
 class Fighter:  # ? Blueprint
 
+    role = "fighter"
+
     def __init__(self, healthPoints):  # ? This is the constructor
         self.healthPoints = healthPoints
 
@@ -14,13 +16,13 @@ class Fighter:  # ? Blueprint
         if self.healthPoints <= 20:
             print("Back up your health is low")
 
-
 def main():
 
     fighterOne = Fighter(150)  # ? This is called intances
     # fighterOne.get_Hp()  # * 1st
     # fighterOne.get_Hp()  # * 2nd
     # fighterOne.get_Hp()  # * 3rd
+    print(fighterOne.role) 
 
     for x in range(7) :
         fighterOne.get_Hp()
