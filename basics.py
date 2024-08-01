@@ -1,5 +1,7 @@
 class Fighter:  # ? Blueprint
 
+    role = "fighter"
+
     def __init__(self, healthPoints):  # ? This is the constructor
         self.healthPoints = healthPoints
 
