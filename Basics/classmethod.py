@@ -15,3 +15,10 @@ class Marksman :
     @classmethod # ? This is a decorator 
     def clsmethod(cls) :
         print("I'm class method")
+
+
+
+def main() :
+
+    mm = Marksman(damage=400, hp=1000)
+    
