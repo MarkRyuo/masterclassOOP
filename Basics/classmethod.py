@@ -8,6 +8,6 @@ class Marksman :
 
     def call(self) :
         print(
-            f"Damage: {self.damage} "
+            f"Damage: {self.damage}
             
             )
