@@ -16,7 +16,6 @@ class Fighter:  # ? Blueprint
         if self.healthPoints <= 20:
             print("Back up your health is low")
 
-
 def main():
 
     fighterOne = Fighter(150)  # ? This is called intances
