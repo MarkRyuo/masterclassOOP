@@ -24,3 +24,5 @@ def main() :
     mm.call()
 
     mm.clsmethod()
+
+main()
