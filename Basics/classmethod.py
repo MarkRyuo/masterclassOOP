@@ -13,4 +13,5 @@ class Marksman :
     
 
     @classmethod # ? This is a decorator 
-    def 
+    def clsmethod(cls) :
+        print("I'm class method")
