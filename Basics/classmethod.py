@@ -6,6 +6,7 @@ class Marksman :
         self.hp = hp # ? public Attribute
 
 
+    # ? Method or function 
     def call(self) :
         print(f"Damage: {self.damage}")
         print(f"Hp: {self.hp}")
