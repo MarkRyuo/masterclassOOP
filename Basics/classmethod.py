@@ -20,7 +20,7 @@ class Marksman :
 
 def main() :
 
-    mm = Marksman(damage=400, hp=1000)
+    mm = Marksman(damage=400, hp=1000) #? This is good for practices
     mm.call()
 
     mm.clsmethod()
