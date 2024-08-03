@@ -2,8 +2,6 @@
 
 # ? This is moduleOne 
 
-
-
 def call(name) :
     print(f"Hi {name}")
 
