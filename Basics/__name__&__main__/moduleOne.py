@@ -8,6 +8,7 @@ def call(name) :
 
 if __name__ == '__main__' :
     print("This is ModuleOne")
+    print(call("Riyuo"))
 else : 
     print("Success...")
     print("Loading main......")
