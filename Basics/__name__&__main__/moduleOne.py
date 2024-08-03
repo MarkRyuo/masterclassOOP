@@ -13,5 +13,5 @@ else : # ? else if the main is runningg
     print("Success...")
     print("Loading main......")
 
-# * This color and sign is called process
+# * This color and sign is called Process
 # ? This color and sigin is called 
