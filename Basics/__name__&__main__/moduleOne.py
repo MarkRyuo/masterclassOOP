@@ -4,8 +4,8 @@
 
 
 
-def call() :
-    print("HI")
+def call(name) :
+    print(f"HI {name}")
 
 
 if __name__ == '__main__' :
