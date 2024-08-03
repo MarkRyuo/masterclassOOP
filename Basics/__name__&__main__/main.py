@@ -8,3 +8,4 @@ def main() :
 
 if __name__ == '__main__' : # ? This is like a guard
     main()
+    print("Main is running....")
