@@ -10,6 +10,6 @@ def call(name) :
 if __name__ == '__main__' :
     print("This is ModuleOne")
     print(call("Riyuo")) # ? Riyuo is called argument
-else : 
+else : # ? else if the main is running
     print("Success...")
     print("Loading main......")
