@@ -9,6 +9,3 @@ def main() :
 if __name__ == '__main__' : # ? This is like a guard
     print("This is Main")
     main()
-else : 
-    print("Success...")
-    print("Loading main......")
