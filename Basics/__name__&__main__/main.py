@@ -10,7 +10,7 @@ def main() :
 
 main()
 
-if __name__ == '__main__' :
+if __name__ == '__main__' : # ? This is like a guard
     print("This is Main")
 else : 
     print("This is Outside")
