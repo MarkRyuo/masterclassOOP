@@ -9,4 +9,5 @@ def call(name) :
 if __name__ == '__main__' :
     print("This is ModuleOne")
 else : 
-    print("This is Outside")
+    print("Success...")
+    print("Loading main......")
