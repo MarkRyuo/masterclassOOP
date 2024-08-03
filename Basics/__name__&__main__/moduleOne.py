@@ -5,7 +5,7 @@
 
 
 def call(name) :
-    print(f"HI {name}")
+    print(f"Hi {name}")
 
 
 if __name__ == '__main__' :
