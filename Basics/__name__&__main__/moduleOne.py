@@ -14,4 +14,6 @@ else : # ? else if the main is runningg
     print("Loading main......")
 
 # * This color and sign is called Process
-# ? This color and sigin is called 
+# ? This color and sign is called Comment 
+# ! This color and sign is called Issue
+# todo/Todo This is the 
