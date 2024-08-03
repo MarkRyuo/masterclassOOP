@@ -5,7 +5,7 @@
 
 
 def call() :
-    print("This is Module One")
+    print("HI")
 
 
 if __name__ == '__main__' :
