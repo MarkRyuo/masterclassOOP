@@ -9,4 +9,5 @@ def call() :
 
 
 if __name__ == '__main__' :
-    pass
+    print("This is ModuleOne")
+else :
