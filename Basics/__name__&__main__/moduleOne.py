@@ -2,6 +2,7 @@
 
 # ? This is moduleOne 
 
+#? name is called parameter
 def call(name) :
     print(f"Hi {name}")
 
