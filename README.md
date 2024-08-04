@@ -21,3 +21,5 @@
         - Static Method 
         - Parameter & Argument
         - Annonation
+        - Decoration 
+        - if __name__ == '__main__' : 
