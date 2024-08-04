@@ -16,3 +16,12 @@
 ## V1.0 
 
     Basics of Classes, Intances, Attributes & Methods
+        - Instance Method 
+        - Class Method 
+        - Static Method 
+        - Parameter & Argument
+        - Annonation
+        - Decoration 
+        - if __name__ == '__main__' : 
+        - for loop 
+        - function/Method
