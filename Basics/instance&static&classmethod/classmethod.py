@@ -22,6 +22,8 @@ class Person :
 
 if __name__ == '__main__' :
 
+    moda = Person.age_from_year("moda", 2003)
+    print(moda.description())
 
 
 
