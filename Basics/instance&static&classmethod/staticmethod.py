@@ -18,4 +18,4 @@ class Person :
 if __name__ == '__main__' :
     p1 = Person("moda", 21)
 
-    
+    print(Person.add_numbers(21,31,31))
