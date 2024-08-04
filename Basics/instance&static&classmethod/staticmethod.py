@@ -1,5 +1,5 @@
 
-
+# ? Static Method 
 
 class Person :
 
