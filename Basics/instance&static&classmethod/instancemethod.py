@@ -10,7 +10,7 @@ class Animal :
         self.animalAge = animalAge 
     
     def display(self) :
-        return f"Pet name: {self.animalName} is {self.animalAge} years old!"
+        return f"Name: {self.animalName} is {self.animalAge} years old!"
 
 
 
