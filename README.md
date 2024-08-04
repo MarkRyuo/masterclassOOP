@@ -17,3 +17,6 @@
 
     Basics of Classes, Intances, Attributes & Methods
         - Instance Method 
+        - Class Method 
+        - Static Method 
+        - Parameter & Argument
