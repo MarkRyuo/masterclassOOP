@@ -16,3 +16,4 @@
 ## V1.0 
 
     Basics of Classes, Intances, Attributes & Methods
+        - Instance Method 
