@@ -9,4 +9,5 @@ class Animal :
         self.animalName = animalName
         self.animalAge = animalAge 
     
-    def display(self)
+    def display(self) :
+        return f"{self.animalName} is {self.animalAge} years old!"
