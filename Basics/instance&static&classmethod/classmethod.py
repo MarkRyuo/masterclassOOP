@@ -23,7 +23,6 @@ class Person :
         return cls(name, age)
     
 
-
 if __name__ == '__main__' :
 
     moda = Person.age_from_year("moda", 2003)
