@@ -12,5 +12,9 @@ class Person :
         return f"{self.name} is {self.age} years old"
 
 
+    @classmethod 
+    def age_from_year(cls, name: str, birt_year: int)
+
+
 
 
