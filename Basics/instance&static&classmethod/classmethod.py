@@ -13,6 +13,7 @@ class Person :
 
 
     @classmethod 
+    
     def age_from_year(cls, name: str, birth_year: int) -> Self :
         current_year: int = date.today().year
         age: int = current_year - birth_year
