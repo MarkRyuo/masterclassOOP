@@ -2,6 +2,9 @@ from typing import Self
 from datetime import date 
 
 
+# ? A class method is going to effect the actual class while an instance method is going to effect the instance 
+
+
 class Person :
 
     def __init__(self, name: str, age: int ) :
@@ -13,7 +16,7 @@ class Person :
 
 
     @classmethod 
-    
+
     def age_from_year(cls, name: str, birth_year: int) -> Self :
         current_year: int = date.today().year
         age: int = current_year - birth_year
