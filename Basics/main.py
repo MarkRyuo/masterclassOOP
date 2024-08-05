@@ -10,4 +10,5 @@ class Person :
     numberofPerson = 0 
 
     def __init__(self, nickname: str, gpa: int) -> None :
-        self.nickname = nickname
+        self.nickname = nickname # ? public class 
+        self.gpa = gpa # ? public class
