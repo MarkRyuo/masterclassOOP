@@ -15,6 +15,4 @@ class Marksman :
         print(f"Hp: {self.hp}")
     
 
-    @classmethod # ? This is a decorator (Most of the time class method is to provide alternative to the init method)
-    def clsmethod(cls) :
-        print("I'm cla
+    @classmethod # ? This is a decorator (Most of the time class method is to provide alternati
