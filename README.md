@@ -13,14 +13,15 @@
     11. Design patterns 
 
 
-## V1.0 Latest
+## V1.0 Latest 
 
-    Basics of Classes, Intances, Attributes & Methods
+    Basics of Classes, Intances, Attributes, Methods etc. 
         - Instance Method 
         - Class Method 
         - Static Method 
         - Parameter & Argument
         - Annonation
+        - Function Annonation
         - Decoration 
         - if __name__ == '__main__' : 
         - for loop 
