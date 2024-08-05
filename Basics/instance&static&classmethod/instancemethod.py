@@ -13,7 +13,6 @@ class Animal :
         return f"Description: {self.animalName} is {self.animalAge} years old!"
 
 
-
 if __name__ == '__main__' :
 
     A1 = Animal("Rambo", 10)
