@@ -12,7 +12,7 @@ class Person :
     def __init__(self, nickname: str, gpa: float) -> None :
         self.nickname = nickname # ? public class 
         self.gpa = gpa # ? public class
-        Person.numberofPerson += 1 #* Bawat lagay 
+        Person.numberofPerson += 1 #* Bawat lagay, Increment by 1
     
     #? Instance Method
     def get_person_info(self) :
