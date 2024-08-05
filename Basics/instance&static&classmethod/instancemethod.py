@@ -5,7 +5,7 @@
 
 class Animal :
 
-    def __init__(self, animalName: str , animalAge: int) :
+    def __init__(self, animalName: str , animalAge: int) -> None:
         self.animalName = animalName
         self.animalAge = animalAge 
     
@@ -15,6 +15,6 @@ class Animal :
 
 
 if __name__ == '__main__' :
-    
+
     A1 = Animal("Rambo", 10)
     print(A1.display())
