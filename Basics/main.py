@@ -9,7 +9,7 @@ class Person :
 
     numberofPerson = 0 
 
-    def __init__(self, nickname: str, gpa: bool) -> None :
+    def __init__(self, nickname: str, gpa: float) -> None :
         self.nickname = nickname # ? public class 
         self.gpa = gpa # ? public class
     
@@ -22,3 +22,4 @@ class Person :
 
 if __name__ == '__main__' :
     p1 = Person("moda", 1.20)
+    print(p1.get_person_info())
