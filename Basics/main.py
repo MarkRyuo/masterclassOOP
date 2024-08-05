@@ -1,4 +1,4 @@
-from typing import Self 
+# from typing import Self 
 
 
 # Todo create a Person class 
