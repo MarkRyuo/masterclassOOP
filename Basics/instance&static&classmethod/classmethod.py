@@ -15,7 +15,7 @@ class Person :
         return f"{self.name} is {self.age} years old"
 
 
-    @classmethod 
+    @classmethod # ? This is a decorator (Most of the time class method is to provide alternative to the init method)
     def age_from_year(cls, name: str, birth_year: int) -> Self : # ? function annonation (->): this arrow is uses to Understand your code in function
         current_year: int = date.today().year
         age: int = current_year - birth_year
