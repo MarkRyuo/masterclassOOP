@@ -12,7 +12,7 @@ class Person :
     def __init__(self, nickname: str, gpa: float) -> None :
         self.nickname = nickname # ? public class 
         self.gpa = gpa # ? public class
-        Person.numberofPerson += 1 #* 
+        Person.numberofPerson += 1 #* Bawat lagay 
     
     #? Instance Method
     def get_person_info(self) :
@@ -25,3 +25,5 @@ if __name__ == '__main__' :
     # ? Instances
     p1 = Person("moda", 1.20)
     print(p1.get_person_info())
+
+    print(Person.numberofPerson) # * Bawat lagay ng person dumadag-dag
