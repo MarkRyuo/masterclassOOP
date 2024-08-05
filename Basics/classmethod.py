@@ -12,9 +12,4 @@ class Marksman :
     # ? Method or function 
     def call(self) :
         print(f"Damage: {self.damage}")
-        print(f"Hp: {self.hp}")
-    
-
-    @classmethod 
-    def clsmethod(cls) :
-        print("I'm class method"
+        prin
