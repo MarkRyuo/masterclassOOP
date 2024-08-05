@@ -9,10 +9,16 @@ class Person :
 
     numberofPerson = 0 
 
-    def __init__(self, nickname: str, gpa: int) -> None :
+    def __init__(self, nickname: str, gpa: bool) -> None :
         self.nickname = nickname # ? public class 
         self.gpa = gpa # ? public class
     
     #* Instance Method
     def get_person_info(self) :
         return f"Nickname: {self.nickname} \n Gpa: {self.gpa}"
+    
+
+
+
+if __name__ == '__main__' :
+    p1 = Person("moda", 1.20)
