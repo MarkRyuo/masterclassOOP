@@ -25,3 +25,4 @@
         - if __name__ == '__main__' : 
         - for loop 
         - function/Method
+        - Type Hinting
