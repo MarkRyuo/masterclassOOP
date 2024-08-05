@@ -15,4 +15,13 @@ class Marksman :
         print(f"Hp: {self.hp}")
     
 
-    @classmethod # ? This is a decorator (Most of the time class method is to provide alternati
+    @classmethod 
+    def clsmethod(cls) :
+        print("I'm class method")
+
+
+
+def main() :
+
+    mm = Marksman(damage=400, hp=1000) #? This is good for practices    
+    mm.call()
