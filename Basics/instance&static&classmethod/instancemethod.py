@@ -15,5 +15,6 @@ class Animal :
 
 
 if __name__ == '__main__' :
+    
     A1 = Animal("Rambo", 10)
     print(A1.display())
