@@ -21,5 +21,6 @@ class Person :
 
 
 if __name__ == '__main__' :
+    # ? Instances
     p1 = Person("moda", 1.20)
     print(p1.get_person_info())
