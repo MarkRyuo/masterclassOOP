@@ -14,4 +14,5 @@ class Person :
         self.gpa = gpa # ? public class
     
     #* Instance Method
-    def get_person_info(self) -> 
+    def get_person_info(self) :
+        return 
