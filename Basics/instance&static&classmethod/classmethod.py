@@ -16,7 +16,7 @@ class Person :
 
 
     @classmethod 
-    def age_from_year(cls, name: str, birth_year: int) -> Self :
+    def age_from_year(cls, name: str, birth_year: int) -> Self : # ? function annonation (->): this arrow is uses to Understand your code in function
         current_year: int = date.today().year
         age: int = current_year - birth_year
         return cls(name, age)
