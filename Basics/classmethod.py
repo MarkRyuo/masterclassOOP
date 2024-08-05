@@ -11,5 +11,4 @@ class Marksman :
 
     # ? Method or function 
     def call(self) :
-        print(f"Damage: {self.damage}")
-        prin
+    
