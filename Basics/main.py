@@ -12,8 +12,9 @@ class Person :
     def __init__(self, nickname: str, gpa: float) -> None :
         self.nickname = nickname # ? public class 
         self.gpa = gpa # ? public class
+        Person.numberofPerson += 1 #* 
     
-    #* Instance Method
+    #? Instance Method
     def get_person_info(self) :
         return f"Nickname: {self.nickname} \nGpa: {self.gpa}"
     
