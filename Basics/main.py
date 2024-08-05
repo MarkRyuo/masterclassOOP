@@ -7,4 +7,5 @@
 
 class Person :
 
-    def __init__(self, nickname: str, )
+    def __init__(self, nickname: str, gpa: int) -> None :
+        self.nickname = nickname
