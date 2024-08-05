@@ -1,4 +1,4 @@
-
+from typing import Self 
 
 
 # Todo create a Person class 
@@ -12,3 +12,6 @@ class Person :
     def __init__(self, nickname: str, gpa: int) -> None :
         self.nickname = nickname # ? public class 
         self.gpa = gpa # ? public class
+    
+    #* Instance Method
+    def get_person_info(self) -> 
