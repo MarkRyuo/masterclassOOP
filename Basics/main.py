@@ -15,4 +15,4 @@ class Person :
     
     #* Instance Method
     def get_person_info(self) :
-        return 
+        return f"Nickname: {self.nickname} \n Gpa: {self.gpa}"
