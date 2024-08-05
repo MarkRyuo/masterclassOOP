@@ -13,7 +13,7 @@
     11. Design patterns 
 
 
-## V1.0 
+## V1.0 Latest
 
     Basics of Classes, Intances, Attributes & Methods
         - Instance Method 
@@ -26,3 +26,4 @@
         - for loop 
         - function/Method
         - Type Hinting
+        - *args & **Kwargs
