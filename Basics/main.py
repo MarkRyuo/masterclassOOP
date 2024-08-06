@@ -30,6 +30,6 @@ if __name__ == '__main__' :
     p1 = Person("moda", 1.20)
     print(p1.get_person_info())
 
-    print(Person.numberofPerson) # * Bawat lagay ng person dumadag-dag
+    print(f" person enrolled:   {Person.numberofPerson}) # * Bawat lagay ng person dumadag-dag
 
     print(Person.get_course())
