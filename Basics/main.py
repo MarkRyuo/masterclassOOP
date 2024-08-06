@@ -21,6 +21,8 @@ class Person :
     @staticmethod
     def get_test_score() :
         
+        score = 0 
+        
     
 
 
