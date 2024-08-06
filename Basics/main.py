@@ -22,7 +22,7 @@ class Person :
     def get_test_score() :
         
         score = 0 
-        
+        get_score = input("Enter your test scores")
     
 
 
