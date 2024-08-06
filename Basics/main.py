@@ -22,6 +22,9 @@ class Person :
     @classmethod
     def get_course(cls,) :
         return f"Course: {cls.courses}"
+    
+    @staticmethod
+    def calculate_Person
 
 
 
