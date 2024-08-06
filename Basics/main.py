@@ -19,11 +19,8 @@ class Person :
         return f"Nickname: {self.nickname} \nGpa: {self.gpa}"
 
     @classmethod
-    def get_test_score(cls) :
-        
-        score = 0 
-        get_score = input("Enter your test score")
-    
+    def get_test_score(cls, *scores: int, gpa ) -> int :
+        return gpa * scores
 
 
 
