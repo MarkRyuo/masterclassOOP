@@ -41,7 +41,3 @@ if __name__ == '__main__' :
     print(Person.calculate_Person(2, 41111))
 
 
-
-
-
-    
