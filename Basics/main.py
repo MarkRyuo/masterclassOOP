@@ -27,7 +27,7 @@ class Person :
 
 if __name__ == '__main__' :
     # ? Instances
-    p1 = Person("moda", 1.20) #? Person 1 
+    p1 = Person(nickname="moda", 1.20) #? Person 1 
     print(p1.get_person_info())
 
     print(f"person enrolled: {Person.numberofPerson}") # * Bawat lagay ng person dumadag-dag
