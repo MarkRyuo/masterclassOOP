@@ -32,4 +32,4 @@ if __name__ == '__main__' :
 
     print(Person.numberofPerson) # * Bawat lagay ng person dumadag-dag
 
-    print(Person.get_test_score(30, 21, 30, 2.22))
+    print(Person.get_course())
