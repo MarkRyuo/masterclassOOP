@@ -8,7 +8,6 @@
 class Person :
 
     numberofPerson = 0 
-    total_of_scores = 0
 
     def __init__(self, nickname: str, gpa: float) -> None :
         self.nickname = nickname # ? public class 
