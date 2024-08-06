@@ -30,3 +30,5 @@ if __name__ == '__main__' :
     print(p1.get_person_info())
 
     print(Person.numberofPerson) # * Bawat lagay ng person dumadag-dag
+
+    print()
