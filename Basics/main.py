@@ -24,7 +24,9 @@ class Person :
         return f"Course: {cls.courses}"
     
     @staticmethod
-    def calculate_Person
+    def calculate_Person(persons: int, number: int) -> int :
+        return persons + number
+
 
 
 
