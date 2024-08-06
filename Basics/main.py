@@ -18,11 +18,11 @@ class Person :
     def get_person_info(self) :
         return f"Nickname: {self.nickname} \nGpa: {self.gpa}"
 
-    @staticmethod
-    def get_test_score() :
+    @classmethod
+    def get_test_score(cls) :
         
         score = 0 
-        get_score = input("Enter your test scores")
+        get_score = input("Enter your test score")
     
 
 
