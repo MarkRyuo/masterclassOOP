@@ -17,6 +17,10 @@ class Person :
     #? Instance Method
     def get_person_info(self) :
         return f"Nickname: {self.nickname} \nGpa: {self.gpa}"
+
+    @staticmethod
+    def get_test_score() :
+        
     
 
 
