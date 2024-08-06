@@ -39,5 +39,3 @@ if __name__ == '__main__' :
     print(Person.get_course())
 
     print(Person.calculate_Person(2, 41111))
-
-
