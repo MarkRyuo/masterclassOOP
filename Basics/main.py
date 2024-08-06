@@ -20,7 +20,8 @@ class Person :
         return f"Nickname: {self.nickname} \nGpa: {self.gpa}"
 
     @classmethod
-    def get_test_score(cls, *scores: int ) -> int :
+    def get_course(cls,) :
+        return f"Course: {cls.courses}"
 
 
 
