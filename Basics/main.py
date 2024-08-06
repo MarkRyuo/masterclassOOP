@@ -8,6 +8,7 @@
 class Person :
 
     numberofPerson = 0 
+    courses = "BSIT"
 
     def __init__(self, nickname: str, gpa: float) -> None :
         self.nickname = nickname # ? public class 
@@ -19,8 +20,7 @@ class Person :
         return f"Nickname: {self.nickname} \nGpa: {self.gpa}"
 
     @classmethod
-    def get_test_score(cls, *scores: int, gpa ) -> int :
-        return gpa * scores
+    def get_test_score(cls, *scores: int ) -> int :
 
 
 
