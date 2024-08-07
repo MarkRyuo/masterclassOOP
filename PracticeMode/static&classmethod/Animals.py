@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 
 
 # Todo create animal system can calculate the age of dog base in birth 
-
+# Todo kailangan m
 
 
 
@@ -19,4 +19,5 @@ class Animal(ABC) :
     @abstractmethod  # * Create abstract method for passing in method talk() in the animals
     def talk(self) :
         pass  
+
     
