@@ -12,7 +12,7 @@ class Animal(ABC) :
 
     num_of_animals = 0
 
-    
+
     def __init__(self, animalName: str, animalType: str, dateofbirth: int ) :
         self.animalName = animalName # ? A public class  
         self.animalType = animalType # ? A public class 
@@ -24,7 +24,8 @@ class Animal(ABC) :
         pass
 
     @classmethod 
-    def get_total_age(cls, )
+    def get_total_age(cls, dateofbirth: int, animalAge: int) -> int :
+        return dateofbirth # ! Im not done yet
     
 
 
