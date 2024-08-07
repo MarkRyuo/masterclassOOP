@@ -1,4 +1,4 @@
-
+from abc import ABC, abstractmethod
 
 
 
@@ -7,4 +7,4 @@
 
 
 
-class 
+class Animal(ABC)
