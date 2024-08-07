@@ -20,7 +20,7 @@ class Person :
         return f"Nickname: {self.nickname} \nGpa: {self.gpa}"
 
     @classmethod
-    def get_course(cls,) :
+    def get_course(cls,) : # ? Can adopt the class 
         return f"Course: {cls.courses}"
     
     @staticmethod
