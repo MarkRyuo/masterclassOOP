@@ -24,7 +24,7 @@ class Person :
         return f"Course: {cls.courses}"
     
     @staticmethod
-    def calculate_Person(persons: int, number: int) -> int :
+    def calculate_Person(persons: int, number: int) -> int : # ? Cant adopt the class 
         return persons + number
 
 
