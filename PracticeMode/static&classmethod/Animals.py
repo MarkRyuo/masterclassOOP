@@ -16,3 +16,7 @@ class Animal(ABC) :
         self.animalType = animalType # ? A public class 
         self.animalAge = animalAge # ? A public class
     
+    @abstractmethod
+    def talk(self) :
+        pass  
+    
