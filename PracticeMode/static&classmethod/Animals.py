@@ -16,11 +16,14 @@ class Animal(ABC) :
         self.animalName = animalName # ? A public class  
         self.animalType = animalType # ? A public class 
         self.animalAge = animalAge # ? A public class
-        Animal.num_of_animals += 1 #* Increamenting animals if adding animals
-            
+        Animal.num_of_animals += 1 #* Increamenting animals if adding animal
+
     @abstractmethod  # * Create abstract method for passing in method talk() in the animals
     def talk(self) :
-        pass  
+        pass
+
+    @classmethod 
+    def get_total_age(cls, )
     
 
 
