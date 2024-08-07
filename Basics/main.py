@@ -1,5 +1,3 @@
-# from typing import Self 
-
 
 # Todo create a Person class 
 # todo create a calculator class 
@@ -20,11 +18,11 @@ class Person :
         return f"Nickname: {self.nickname} \nGpa: {self.gpa}"
 
     @classmethod
-    def get_course(cls,) :
+    def get_course(cls,) : # ? Can adopt the class 
         return f"Course: {cls.courses}"
     
     @staticmethod
-    def calculate_Person(persons: int, number: int) -> int :
+    def calculate_Person(persons: int, number: int) -> int : # ? Cant adopt the class 
         return persons + number
 
 
