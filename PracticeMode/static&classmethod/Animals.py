@@ -11,4 +11,4 @@ class Animal(ABC) :
 
     def __init__(self, animalName: str, animalType: str, animalAge: int ) :
         self.animalName = animalName 
-        
+        self.animalType = animalType
