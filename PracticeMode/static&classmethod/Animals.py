@@ -7,4 +7,6 @@ from abc import ABC, abstractmethod
 
 
 
-class Animal(ABC)
+class Animal(ABC) :
+
+    def __init__(self, animalName: str, animalType: str, animalAge )
