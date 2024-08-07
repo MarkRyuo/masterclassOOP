@@ -16,7 +16,7 @@ class Animal(ABC) :
         self.animalType = animalType # ? A public class 
         self.animalAge = animalAge # ? A public class
     
-    @abstractmethod
+    @abstractmethod  # * Create abstract method for passing in method talk() in the animals
     def talk(self) :
         pass  
     
