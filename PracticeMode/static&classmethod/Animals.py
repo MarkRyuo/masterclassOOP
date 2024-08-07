@@ -12,10 +12,11 @@ class Animal(ABC) :
 
     num_of_animals = 0
 
+    
     def __init__(self, animalName: str, animalType: str, dateofbirth: int ) :
         self.animalName = animalName # ? A public class  
         self.animalType = animalType # ? A public class 
-        self.dateofbirth = animalAge # ? A public class
+        self.dateofbirth = dateofbirth # ? A public class
         Animal.num_of_animals += 1 #* Increamenting animals if adding animal
 
     @abstractmethod  # * Create abstract method for passing in method talk() in the animals
