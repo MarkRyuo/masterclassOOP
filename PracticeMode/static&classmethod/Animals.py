@@ -10,8 +10,7 @@ from abc import ABC, abstractmethod
 class Animal(ABC) :
 
 
-    num_of_animals: int = 0 # ? This is way your code is readable 
-
+    num_of_animals: int = 0  # Type hints (:) make your code more readable
 
     def __init__(self, animalName: str, animalType: str, dateofbirth: int ) :
         self.animalName = animalName # ? A public class  
