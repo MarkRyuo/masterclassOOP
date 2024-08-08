@@ -27,5 +27,6 @@ class Animal(ABC) :
         return dateofbirth # ! Im not done yet
     
 
-
+if __name__ == '__main__' :
+    pass
     
