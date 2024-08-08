@@ -30,5 +30,5 @@ class Animal(ABC) :
 if __name__ == '__main__' :
     print("Main Animal Running")
 else :
-    print("Running Outside")
+    print("Animal Running Outside")
     
