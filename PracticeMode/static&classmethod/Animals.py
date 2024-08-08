@@ -28,5 +28,5 @@ class Animal(ABC) :
     
 
 if __name__ == '__main__' :
-    pass
+    print("Main Animal Running")
     
