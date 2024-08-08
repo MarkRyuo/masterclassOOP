@@ -8,7 +8,7 @@ class Cat(Animal) :
     
 
     def talk(self): 
-        return f"{self.animalName} said Woof! Meow!"
+        return f"{self.animalName} said Meow! Meow!"
 
     
 
