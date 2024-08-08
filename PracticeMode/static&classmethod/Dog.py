@@ -10,7 +10,8 @@ class Dog(Animal) :
     def talk(self): 
         return f"{self.animalName} said Woof! Woof!"
 
-    
+
 
     
-
+if __name__ == '__main__' :
+    pass
