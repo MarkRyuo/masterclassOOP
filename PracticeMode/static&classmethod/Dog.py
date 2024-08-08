@@ -16,4 +16,4 @@ class Dog(Animal) :
 if __name__ == '__main__' :
     print("This is Dog")
 else :
-    print("Running Outside")
+    print("Dog! Running Outside")
