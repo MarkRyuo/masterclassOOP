@@ -10,8 +10,7 @@ from abc import ABC, abstractmethod
 class Animal(ABC) :
 
 
-    num_of_animals = 0
-
+    num_of_animals: int = 0  # ? Type hints (:) make your code more readable
 
     def __init__(self, animalName: str, animalType: str, dateofbirth: int ) :
         self.animalName = animalName # ? A public class  
@@ -28,5 +27,8 @@ class Animal(ABC) :
         return dateofbirth # ! Im not done yet
     
 
-
+if __name__ == '__main__' :
+    print("Main Animal Running")
+else :
+    print("Animal Running Outside")
     

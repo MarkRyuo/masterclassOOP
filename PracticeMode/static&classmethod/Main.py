@@ -1,4 +1,4 @@
-
+from Dog import Dog
 
 
 
@@ -6,4 +6,5 @@
 
 
 if __name__ == '__main__' :
-    pass
+    dog: Dog = Dog("Rambo", "Dog", 19)
+    print(dog.talk())
