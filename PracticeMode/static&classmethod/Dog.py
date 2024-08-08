@@ -1,4 +1,6 @@
 from Animals import Animal
 
 
-class Dog(Animals)
+class Dog(Animal) :
+
+    def __init__(self, animalName: str)
