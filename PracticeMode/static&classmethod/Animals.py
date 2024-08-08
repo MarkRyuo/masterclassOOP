@@ -10,7 +10,7 @@ from abc import ABC, abstractmethod
 class Animal(ABC) :
 
 
-    num_of_animals: int = 0
+    num_of_animals: int = 0 # ? This is way your code is readable 
 
 
     def __init__(self, animalName: str, animalType: str, dateofbirth: int ) :
