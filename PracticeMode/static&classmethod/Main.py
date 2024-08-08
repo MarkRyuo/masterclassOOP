@@ -7,4 +7,4 @@ from Dog import Dog
 
 if __name__ == '__main__' :
     dog: Dog = Dog("Rambo", "Dog", 19)
-    dog.talk()
+    print(dog.talk())
