@@ -23,7 +23,7 @@ class Animal(ABC) :
         pass
 
     @classmethod 
-    def get_total_age(cls, dateofbirth: int, animalAge: int) -> int :
+    def get_total_age(cls, dateofbirth: str, animalAge: int) -> int :
         return dateofbirth # ! Im not done yet
     
 
