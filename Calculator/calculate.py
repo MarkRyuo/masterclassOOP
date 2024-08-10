@@ -9,8 +9,8 @@ class Calculate() :
     def Get_Number(self) :
         # * Enter a Num1 
 
-        num1: int = input("Enter a NumA: ") # type: ignore
-        if num1 <= 10 :
+        num1 = input("Enter a NumA: ") # type: ignore
+        if int(num1) <= 10 :
             return False
         else :
             return True
