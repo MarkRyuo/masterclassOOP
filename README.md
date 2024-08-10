@@ -28,3 +28,5 @@
         - function/Method
         - Type Hinting
         - *args & **Kwargs
+        
+        - Creating a Calculator in V1
