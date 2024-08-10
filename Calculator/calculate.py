@@ -10,7 +10,7 @@ class Calculate() :
         # * Enter a Num1 
 
         num1: int = input("Enter a NumA: ") # type: ignore
-        if num1 == 0 :
+        if num1 <= 10 :
             return False
         else :
             return True
