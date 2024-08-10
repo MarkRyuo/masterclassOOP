@@ -14,5 +14,8 @@ class Calculate() :
             return False
         else :
             return True
-        
-        num2: 
+
+
+
+if __name__ == '__main__' :
+    getNUm = Calculate()
