@@ -8,5 +8,11 @@ class Calculate() :
     
     def Get_Number(self) :
         # * Enter a Num1 
-        num1: int 
-        num1 = input("Enter a NumA: ")
+
+        num1: int = input("Enter a NumA: ") # type: ignore
+        if num1 == 0 :
+            return False
+        else :
+            return True
+        
+        num2: 
