@@ -16,4 +16,3 @@ class Calculate() :
             return True
 
 
-
