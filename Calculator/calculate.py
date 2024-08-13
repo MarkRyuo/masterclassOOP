@@ -11,7 +11,7 @@ class Calculate() :
         # * If NUM1 is True return the value
         # * If NUM1 is false return False
 
-        NUM1 = input("Enter a NumA: ") # ? NUM1 is a constant 
+        NUM1 = input("Enter a Number: ") # ? NUM1 is a constant 
         if int(NUM1) <= 10 :
             return False
         else :
