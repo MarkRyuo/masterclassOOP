@@ -18,7 +18,7 @@ class Calculate() :
     def Get_Num2(self)  :
         # * Get Num2 
 
-        
+        NUM2 = input("Enter a Number: ")
 
 
 
