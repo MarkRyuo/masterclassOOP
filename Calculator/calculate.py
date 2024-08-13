@@ -25,6 +25,11 @@ class Calculate() :
 
         NUM2 = input("Enter a Number: ")
 
+        if int(NUM2) <= 10 :
+            return False 
+        else : 
+            return True
+
 
 
 
