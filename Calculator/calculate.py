@@ -7,7 +7,8 @@ class Calculate() :
         pass
     
     def Get_Number(self) :
-        # * Enter a Number for NUM1 
+        # * Enter a Number for NUM1
+        # * If NUM1 is True return the value 
 
         NUM1 = input("Enter a NumA: ") # ? NUM1 is a constant 
         if int(NUM1) <= 10 :
