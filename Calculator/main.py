@@ -1,8 +1,11 @@
 from calculate import Calculate 
 
-
-
-
 if __name__ == '__main__' :
-    getNUm = Calculate()
-    print(getNUm.Get_Number())
+    get_the_Number = Calculate()
+
+    
+    if get_the_Number :
+        print(
+            f" Num1: {get_the_Number.Get_Num1()} \n Num2: {get_the_Number.Get_Num2()}"
+            )
+        # ! Add Num1 and Num 2 
