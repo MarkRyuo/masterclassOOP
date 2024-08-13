@@ -16,9 +16,12 @@ class Calculate() :
             return False
         else :
             return True
-           
+
+
     def Get_Num2(self)  :
-        # * Get Num2 
+        # * Enter a Number for NUM1
+        # * If NUM1 is True return the value
+        # * If NUM1 is false return False
 
         NUM2 = input("Enter a Number: ")
 
