@@ -6,7 +6,7 @@ class Calculate() :
     def __init__(self) -> None :
         pass
     
-    def Get_Number(self) :
+    def Get_Num1(self) :
         # * Enter a Number for NUM1
         # * If NUM1 is True return the value
         # * If NUM1 is false return False
