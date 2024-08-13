@@ -15,7 +15,7 @@ class Calculate() :
         if int(NUM1) <= 10 :
             return False
         else :
-            return True
+            return NUM1
 
 
     def Get_Num2(self)  :
@@ -28,7 +28,7 @@ class Calculate() :
         if int(NUM2) <= 10 :
             return False 
         else : 
-            return True
+            return NUM2
     
 
 
