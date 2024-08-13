@@ -14,5 +14,8 @@ class Calculate() :
             return False
         else :
             return True
+           
+    def Get_Num2(self) :
+
 
 
