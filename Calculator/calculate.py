@@ -16,6 +16,9 @@ class Calculate() :
             return True
            
     def Get_Num2(self) :
+        # * Get Num2 
+
+        
 
 
 
