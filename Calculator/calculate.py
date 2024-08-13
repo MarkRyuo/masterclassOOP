@@ -19,9 +19,9 @@ class Calculate() :
 
 
     def Get_Num2(self)  :
-        # * Enter a Number for NUM1
-        # * If NUM1 is True return the value
-        # * If NUM1 is false return False
+        # * Enter a Number for NUM2
+        # * If NUM2 is True return the value
+        # * If NUM2 is false return False
 
         NUM2 = input("Enter a Number: ")
 
